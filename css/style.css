@@ -1,0 +1,98 @@
+body {
+    font-family: 'frontage_regular', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: peachpuff;
+    border: none;
+    vertical-align: middle;
+}
+
+nav a {
+    background-color: #fff;
+    position: absolute;
+    color: #41343e;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    margin: 0 !important;
+}
+
+nav a:hover,
+nav a:active,
+.active {
+    background-color: peachpuff !important;
+}
+
+.construction {
+    margin-top: 40vh;
+}
+
+.view {
+    display: none;
+}
+
+.serif {
+    font-family: 'Lora', serif;
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.bg-img {
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+
+#pg-home h3,
+#pg-retailers #retailers-signup-btn,
+#pg-retailers #retailers-info {
+    display: none;
+}
+
+#pg-home {
+    color: #fff;
+    text-shadow: 2px 2px 8px #41343e;
+}
+
+#pg-home h1 {
+    font-size: 5em;
+    margin-top: 30vh;
+}
+
+#pg-home .bg-img {
+    background-image: url(../img/bg_home.jpg);
+}
+
+#pg-shoppers .jumbotron {
+    color: #fff;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../img/bg_shoppers.jpg');
+}
+
+#pg-retailers .bg-img {
+    background-image: url(../img/bg_retailers.jpg);
+}
+
+#pg-about {
+    margin-top: 30vh;
+}
