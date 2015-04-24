@@ -1,18 +1,18 @@
 body {
     font-family: 'frontage_regular', sans-serif;
     overflow-x: hidden;
+    padding-bottom: 50px;
+    color: #41343e;
 }
 
 nav {
-    background-color: peachpuff;
-    border: none;
-    vertical-align: middle;
+    background-color: #eed6aa;
 }
 
 nav a {
+    color: #41343e;
     background-color: #fff;
     position: absolute;
-    color: #41343e;
     cursor: pointer;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
@@ -25,11 +25,8 @@ nav a {
 nav a:hover,
 nav a:active,
 .active {
-    background-color: peachpuff !important;
-}
-
-.construction {
-    margin-top: 40vh;
+    color: #41343e !important;
+    background-color: #eed6aa !important;
 }
 
 .view {
@@ -38,13 +35,6 @@ nav a:active,
 
 .serif {
     font-family: 'Lora', serif;
-}
-
-.fade {
-    opacity: 1;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
 }
 
 .bg-img {
@@ -59,10 +49,22 @@ nav a:active,
     z-index: -1;
 }
 
+.jumbotron {
+    background-color: beige;
+}
+
 #pg-home h3,
+#pg-shoppers #shoppers-signup-btn,
+#pg-shoppers #shoppers-info,
 #pg-retailers #retailers-signup-btn,
 #pg-retailers #retailers-info {
     display: none;
+}
+
+#pg-retailers #retailers-learn-btn,
+#pg-shoppers #shoppers-learn-btn {
+    background-color: beige;
+    border-color: #41343e;
 }
 
 #pg-home {
@@ -79,18 +81,32 @@ nav a:active,
     background-image: url(../img/bg_home.jpg);
 }
 
-#pg-shoppers .jumbotron {
-    color: #fff;
-    background: no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+#pg-product .screen-description {
+    margin-top: 30vh;
+}
+
+#pg-product .screen-img {
+    margin: auto 0;
+}
+
+#pg-product .hidden {
+    visibility: hidden;
+}
+
+#pg-shoppers .bg-img {
     background-image: url('../img/bg_shoppers.jpg');
 }
 
 #pg-retailers .bg-img {
     background-image: url(../img/bg_retailers.jpg);
+}
+
+#pg-details{
+    padding-bottom: 10em;
+}
+
+#pg-details .row {
+    margin: 2em 0;   
 }
 
 #pg-about {
