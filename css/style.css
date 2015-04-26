@@ -1,18 +1,11 @@
 body {
     font-family: 'frontage_regular', sans-serif;
-    overflow-x: hidden;
-    padding-bottom: 50px;
     color: #41343e;
-}
-
-nav {
-    background-color: #eed6aa;
 }
 
 nav a {
     color: #41343e;
     background-color: #fff;
-    position: absolute;
     cursor: pointer;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
@@ -25,12 +18,8 @@ nav a {
 nav a:hover,
 nav a:active,
 .active {
-    color: #41343e !important;
-    background-color: #eed6aa !important;
-}
-
-.view {
-    display: none;
+    color: #fff !important;
+    background-color: #EF473A !important;
 }
 
 .serif {
@@ -39,20 +28,37 @@ nav a:active,
 
 .bg-img {
     position: fixed;
-    width: 200%;
-    height: 200%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     z-index: -1;
+    opacity: 0.8;
+    overflow: hidden;
 }
 
-.jumbotron {
-    background-color: beige;
+.btn-primary,
+.btn-primary:visited {
+    background-color: #EF473A;
+    border: none;
 }
 
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #de3629;
+}
+
+.btn-secondary {
+    background: #fff;
+    color: #EF473A;
+}
+
+.view,
 #pg-home h3,
 #pg-shoppers #shoppers-signup-btn,
 #pg-shoppers #shoppers-info,
@@ -61,19 +67,13 @@ nav a:active,
     display: none;
 }
 
-#pg-retailers #retailers-learn-btn,
-#pg-shoppers #shoppers-learn-btn {
-    background-color: beige;
-    border-color: #41343e;
-}
-
 #pg-home {
     color: #fff;
-    text-shadow: 2px 2px 8px #41343e;
+    text-shadow: 2px 2px 6px #41343e;
 }
 
 #pg-home h1 {
-    font-size: 5em;
+    font-size: 6rem;
     margin-top: 30vh;
 }
 
@@ -86,6 +86,7 @@ nav a:active,
 }
 
 #pg-product .screen-img {
+    max-width: auto;
     margin: auto 0;
 }
 
@@ -101,12 +102,12 @@ nav a:active,
     background-image: url(../img/bg_retailers.jpg);
 }
 
-#pg-details{
+#pg-details {
     padding-bottom: 10em;
 }
 
 #pg-details .row {
-    margin: 2em 0;   
+    margin: 2em 0;
 }
 
 #pg-about {

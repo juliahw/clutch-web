@@ -21,19 +21,19 @@ app.controller('productController', ['$scope', function ($scope) {
     $scope.index = 0;
     $scope.screens = [
         {
-            url: '../img/screens/screen1.png',
+            url: 'img/screens/screen1.png',
             description: 'Download Clutch to get access to ALL retailers using our product.'
     },
         {
-            url: '../img/screens/screen1.png',
+            url: 'img/screens/screen1.png',
             description: 'Immediately see existing deals.'
     },
         {
-            url: '../img/screens/screen1.png',
+            url: 'img/screens/screen1.png',
             description: 'As you browse, personalized coupons will be served for items you want.'
     },
         {
-            url: '../img/screens/screen2.png',
+            url: 'img/screens/screen2.png',
             description: 'Treat our coupons like any other coupon. Present it at the sales counter and save!'
     }];
 
