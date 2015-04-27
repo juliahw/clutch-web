@@ -39,7 +39,6 @@ nav a:active,
     -o-background-size: cover;
     background-size: cover;
     z-index: -1;
-    opacity: 0.8;
     overflow: hidden;
 }
 
@@ -57,10 +56,6 @@ nav a:active,
 .btn-secondary {
     background: #fff;
     color: #EF473A;
-}
-
-.jumbotron {
-    padding: 20px 0 30px 0;
 }
 
 .view,
@@ -91,7 +86,7 @@ nav a:active,
 }
 
 #pg-product .screen-img {
-    max-width: auto;
+    max-width: 175%;
     margin: auto 0;
 }
 
