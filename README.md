@@ -1,2 +1,2 @@
 # clutch-web
-##### This is website for Clutch.
+##### This is a landing page for Clutch.
